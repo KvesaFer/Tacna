@@ -1,0 +1,134 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"> <!-- Light grey background for overall layout -->
+
+    <!-- Header TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ime eventa"
+        android:inputType="text"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp"/>
+
+    <!-- EditText for Payout Percentage -->
+    <EditText
+        android:id="@+id/editTextPayoutPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Postotak za isplatu (e.g. 0.15)"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- EditText for My Deposit -->
+    <EditText
+        android:id="@+id/editTextMyDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moj polog"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- EditText for Given Deposit -->
+    <EditText
+        android:id="@+id/editTextGivenDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dobiven polog"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginVertical="8dp"/>
+
+    <!-- Prices Section Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cijene"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- EditText for Beer Price -->
+    <EditText
+        android:id="@+id/editTextBeerPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cijena piva"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- EditText for Juice Price -->
+    <EditText
+        android:id="@+id/editTextJuicePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cijena soka"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- EditText for Shots Price -->
+    <EditText
+        android:id="@+id/editTextShotsPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cijena rakije"
+        android:textColorHint="@color/hintTextColor"
+        android:textColor="@color/editTextTextColor"
+        android:inputType="numberDecimal"
+        android:background="@color/editTextBackgroundColor"
+        android:padding="10dp" />
+
+    <!-- Save Event Button -->
+    <Button
+        android:id="@+id/buttonSaveEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radi!"
+        android:textColor="#FFFFFF"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

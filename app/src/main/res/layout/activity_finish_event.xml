@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#f0f0f0">
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:text="Total (sve): "
+        android:background="@color/colorGroupTextView"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewDebt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:text="Njihov novac: "
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGroupTextView"
+        android:padding="10dp"/>
+
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginVertical="8dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewSales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:text="Promet: "
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGroupTextView"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewPayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:text="Isplata: "
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGroupTextView"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/buttonOpenCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Kalkulator"/>
+
+</LinearLayout>

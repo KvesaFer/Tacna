@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hintTextColor">#9E9E9E</color>
+    <color name="editTextBackgroundColor">#FFFFFF</color>
+    <color name="editTextTextColor">#333333</color>
+    <color name="buttonColor">#1E88E5</color>
+    <color name="colorBeerGroup">#FFEB3B</color>
+    <color name="colorJuiceGroup">#4CAF50</color>
+    <color name="colorShotsGroup">#F44336</color>
+    <color name="colorGroupTextView">#ddeeff</color>
+    <color name="rowColor1">#F7F7F7</color>
+    <color name="rowColor2">#EFEFEF</color>
+    <color name="resultTextColor">#FF000000</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="textNumberColor">#1565C0</color>
+</resources>
